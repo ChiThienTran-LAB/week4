@@ -10,7 +10,6 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class FindElementWithXpathAxesTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "D:\\chrome\\chromedriver.exe");
 		ChromeOptions options =new ChromeOptions();
 		options.addArguments("--disable-notifications");
